@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1  align="center">Nested Table</Table></h1>
+    <table border="1" cellpadding="10" align="center">
+        <tr>
+            <th>Header column 1</th>
+            <th>Header column 2</th>
+            <th>Header column 3</th>
+            <th>Header column 4</th>
+        </tr>
+        <tr>
+            <td>row1-item1</td>
+            <td>row2-item2</td>
+            <th rowspan="2">
+                row 2:nested table 1
+            <table border="1">
+                <tr>
+                    <td>row 1 header</td>
+                    <td>item</td>
+                </tr>
+                <tr>
+                    <td>row 2 header</td>
+                    <td>item</td>
+                </tr>
+                <tr>
+                    <td>row 3 header</td>
+                    <td>item</td>
+                </tr>
+            </table>
+        </th>
+            <td>row2-item4 A second line</td>
+        </tr>
+         <tr>
+             <th>row 3:nested table 2
+             <table border="1">
+                <tr>
+                    <td>row1 header</td>
+                    <td>item</td>
+                </tr>
+                <tr>
+                    <td>row2 header</td>
+                    <td>item</td>
+                </tr>
+             </table>
+            </th>
+            <td>row 3-item 2</td>
+            <td rowspan="2">row 3-item 3</td>
+        </tr>
+        <tr>
+            <td>row 4-item 1</td>
+            <td>row 4-item 2</td>
+            <td>row 4-item 3</td>
+        </tr>
+        <tr>
+            <td colspan="4">row 5 - last row for outer table</td>
+        </tr>
+    </table>
+</body>
+</html>
