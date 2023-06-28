@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css-box</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+
+        .head {
+            height: 100px;
+            background-color: rgb(4, 5, 5);
+            display: flex;
+        }
+
+        .one {
+            height: inherit;
+            width: 20%;
+            background-color: rgb(255, 127, 127);
+        }
+
+        .two {
+            height: inherit;
+            width: 80%;
+            background-color: rgb(11, 195, 215);
+        }
+
+        /* main part */
+        .main {
+            height: 600px;
+            background-color: rgb(177, 230, 154);
+            display: flex;
+        }
+
+        .m1 {
+            height: inherit;
+            width: 50%;
+            background-color: rgb(206, 0, 252);
+            display: flex;
+        }
+
+        .mm1 {
+            height: inherit;
+            width: 50%;
+            background-color: rgb(0, 168, 252);
+        }
+
+        /* s1part */
+        .s1 {
+            height: 50%;
+            background-color: azure;
+        }
+
+        .s2 {
+            height: 50%;
+            background-color: rgb(35, 171, 171);
+        }
+
+        .mm2 {
+            height: inherit;
+            width: 50%;
+            background-color: rgb(0, 252, 189);
+        }
+
+        .s3 {
+            height: 50%;
+            background-color: rgb(22, 86, 188);
+        }
+
+        .s4 {
+            height: 50%;
+            background-color: rgb(171, 35, 112);
+        }
+
+        .m2 {
+            height: inherit;
+            width: 50%;
+            background-color: rgb(231, 252, 0);
+            display: flex;
+        }
+
+        .mmm1 {
+            height: inherit;
+            width: 50%;
+            background-color: rgb(0, 168, 252);
+        }
+
+        .s5 {
+            height: 50%;
+            background-color: rgb(56, 174, 27);
+        }
+
+        .s6 {
+            height: 50%;
+            background-color: rgb(92, 35, 171);
+        }
+
+        .mmm2 {
+            height: inherit;
+            width: 50%;
+            background-color: rgb(0, 252, 189);
+        }
+
+        .s7 {
+            height: 50%;
+            background-color: azure;
+        }
+
+        .s8 {
+            height: 50%;
+            background-color: rgb(35, 171, 171);
+        }
+
+        .footer {
+            height: 45px;
+            background-color: rgb(127, 255, 155);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="head">
+        <div class="one"></div>
+        <div class="two"></div>
+    </div>
+    <div class="main">
+        <div class="m1">
+            <div class="mm1">
+                <div class="s1"></div>
+                <div class="s2"></div>
+            </div>
+            <div class="mm2">
+                <div class="s3"></div>
+                <div class="s4"></div>
+            </div>
+        </div>
+        <div class="m2">
+            <div class="mmm1">
+                <div class="s5"></div>
+                <div class="s6"></div>
+            </div>
+            <div class="mmm2">
+                <div class="s7"></div>
+                <div class="s8"></div>
+            </div>
+        </div>
+    </div>
+    <div class="footer"></div>
+</body>
+
+</html>
